@@ -1,10 +1,10 @@
 const character = document.createElement("div");
 character.className = "character";
-character.style.backgroundColor = "black"; // 문자열로 감싸야 합니다.
-character.style.width = "100px"; // 단위를 추가해야 합니다.
-character.style.height = "100px"; // 단위를 추가해야 합니다.
-character.style.position = "absolute"; // 위치를 절대적으로 설정해야 합니다.
-document.getElementById("gameArea").appendChild(character); // getElementsById를 getElementById로 수정
+character.style.backgroundColor = "black";
+character.style.width = "100px";
+character.style.height = "100px";
+character.style.position = "absolute";
+document.getElementById("gameArea").appendChild(character);
 
 let posX = 100,
   posY = 100;
